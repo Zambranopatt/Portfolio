@@ -85,7 +85,6 @@ const About = () => {
           </div>
         </div>
       </section>
-      {/* Hobbies Section */}
       <section className="bg-black text-white px-20 py-16">
         <h2 className="text-3xl font-bold text-green-600 mb-8 text-center">
           My Hobbies
@@ -121,6 +120,59 @@ const About = () => {
               Practicing new frameworks, solving coding challenges, and building
               side projects.
             </p>
+          </div>
+        </div>
+      </section>
+      <section className="h-screen overflow-hidden flex w-full p-20 text-white bg-black">
+        <div className="space-y-5 w-[50%]">
+          <h1 className="text-4xl text-green-500">Why Mern</h1>
+          <p className="ques">
+            My First programming language to explore is Javascript it is easy
+            for me to understand and also i want to become to become web
+            developer so i've reseached about it and i found out it can do
+            frontend and backend in same programming language.
+          </p>
+          <p className="ques">
+            While in my college days each semester they teached us different
+            types of languages like c++, c# , java, php i know each of their
+            synstax but i keep learning js fundamentals during night and it
+            hooks me like a react HAHAHA kidding aside... so that it will
+            enhance my knowledge about the language because i believe that
+            consistency is the key so success.
+          </p>
+          <p className="ques">
+            After learning js and creating plain vanilla js projects there was a
+            problem when the project is huge or using dom manipulation it is
+            difficult to handle, So ive switch to react and learn hooks ,
+            components and syntax it made my code efficient and become reusable
+            like a funtion.
+          </p>
+          <p className="ques">
+            When im confident in the front-end its time to learn Backend, During
+            my 4th year in college we've introduce to python another language
+            but i prefer js to backend cause i know it will be easy for me cause
+            i know the synstax and workflow so i choose node js.
+          </p>
+          <p className="ques">
+            if there is a backend there should be storage for data i have
+            knowledge before in database our school teach us mysql but to
+            complete and i've research the best database for node is MongoDb.
+          </p>
+        </div>
+        <div className="w-[50%] flex gap-3 items-center justify-center">
+          <div className="w-[400px] h-[400px] flex gap-5 flex-wrap">
+            <img className="w-[140px] flex-1" src="react.png" alt="" />
+            <img className="w-[140px] flex-1" src="node.png" alt="" />
+            <img
+              className="w-[140px] bg-white rounded-lg flex-1"
+              src="mongo.png"
+              alt=""
+            />
+            <img
+              className="w-[140px]  bg-white rounded-lg flex-1"
+              src="express.png"
+              alt=""
+            />
           </div>
         </div>
       </section>

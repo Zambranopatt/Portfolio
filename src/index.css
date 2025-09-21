@@ -1,1 +1,4 @@
 @import "tailwindcss";
+.ques {
+  @apply text-justify;
+}

@@ -256,7 +256,7 @@ const Home = () => {
             </button>
           </form>
         </div>
-        <button>Hello</button>
+        <button></button>
       </section>
     </>
   );
